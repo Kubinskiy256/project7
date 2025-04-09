@@ -3,10 +3,11 @@
 namespace kubinskiy\project;
 
 class Pizza{
-    public $name;
-    public $sauce;
-    public $toppings=[];
-    public function prepare(){
+    public  string $name;
+    public string $sauce;
+    public array $toppings=[];
+    public function prepare(): string
+    {
         echo "Началась готовка пиццы: $this->name\n";
         echo "Добавлен соус $this->sauce\n";
         echo "Добавлены топики:";
@@ -15,7 +16,8 @@ class Pizza{
         }
         echo "\n";
     }
-    public function cut(){
+    public function cut(): string
+    {
         echo "Данную пиццу нарезают по диагонали\n";
     }
     
