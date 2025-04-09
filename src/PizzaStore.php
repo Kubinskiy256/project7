@@ -1,6 +1,6 @@
 <?php
 
-namespace Kubinskiy\project;
+namespace kubinskiy\project;
 
 class PizzaStore {
    
